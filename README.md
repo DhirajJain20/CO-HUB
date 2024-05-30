@@ -59,3 +59,28 @@ A project resorce sharing platform, primarily developed for building hardware pr
 - Razorpay installed
   
 ## Screenshots
+-Heropage
+
+![HeroPage](https://github.com/DhirajJain20/CO-HUB/assets/119130072/c31ed832-2c31-4bcd-bc80-6ed6816ce2ab)
+
+-Dashboard
+
+![Dashboard](https://github.com/DhirajJain20/CO-HUB/assets/119130072/d3ef6b80-6d67-4597-b0c7-d20ea0bd7748)
+
+-Login Using FireBase
+
+![login1](https://github.com/DhirajJain20/CO-HUB/assets/119130072/9a5e2862-f8b7-47ce-bc42-f42e61ce8db7)
+
+-New Project Details
+
+![start_project](https://github.com/DhirajJain20/CO-HUB/assets/119130072/2e37cc9e-5b65-4337-9974-ae37bf548e33)
+
+-Project Description
+
+![project_details](https://github.com/DhirajJain20/CO-HUB/assets/119130072/8c308496-2c5c-4b30-8df1-9715dc56dac0)
+
+-Product Details
+
+![sell_rent_page](https://github.com/DhirajJain20/CO-HUB/assets/119130072/4a68ed73-1b79-4121-8c6f-99d0a7ca17d7)
+
+
