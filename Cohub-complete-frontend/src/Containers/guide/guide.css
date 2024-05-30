@@ -1,0 +1,102 @@
+.guide_container {
+  padding: 1rem 1rem;
+  margin: 2rem;
+  margin-right: 4rem;
+}
+
+.guide_container_second {
+  flex-direction: row-reverse;
+}
+
+.guide_container_first,
+.guide_container_second,
+.guide_container_third {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.first_image,
+.second_image,
+.third_image {
+  margin: 1rem;
+}
+
+img {
+  width: 350px;
+  border-radius: 30px;
+}
+
+/* Button Styles */
+
+.first_button button,
+.second_button button,
+.third_button button {
+  display: inline-flex;
+  /* padding: 18px 51px; */
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  gap: 10px;
+  width: 220px;
+  height: 40px;
+  border-radius: 10px;
+  background: #66fcf1;
+  border: none;
+  color: #202833;
+  font-family: var(--font-btn);
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+  .guide_container_first,
+  .guide_container_second,
+  .guide_container_third {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    gap: 5px;
+    padding: 15px 0;
+  }
+  img {
+    width: 250px;
+  }
+
+  .first_image,
+  .second_image,
+  .third_image {
+    margin: 0.5rem 0;
+  }
+
+  .first_button button,
+  .second_button button,
+  .third_button button {
+    padding: 10px 30px;
+    width: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  img {
+    width: 200px;
+  }
+
+  .guide_container {
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  .first_button button,
+  .second_button button,
+  .third_button button {
+    padding: 10px 20px;
+    width: 200px;
+  }
+}

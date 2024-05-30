@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-family: "Manrope", sans-serif;
+  --font-main: "Outfit", sans-serif;
+  --font-btn: "Roboto Mono", monospace;
+  --gradient-text: linear-gradient(89.97deg, #88d0d0 1.84%, #8e8edb 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #88d0d0 -13.86%, #8e8edb 99.55%);
+
+  --color-bg: #040c18;
+  --color-footer: #031b34;
+  --color-blog: #042c54;
+  --color-text: #81afdd;
+  --color-subtext: #ff8a71;
+  --color-start: #8e8edb;
+}

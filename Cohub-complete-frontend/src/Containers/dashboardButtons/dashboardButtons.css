@@ -1,0 +1,178 @@
+.dashboard__header-buttons_container {
+  margin-top: 2rem;
+}
+
+.start_container,
+.sell_container,
+.rent_container,
+.buy_container,
+.my-product_container,
+.rented-products_container {
+  margin-top: 1rem;
+  border-radius: 10px;
+  padding: 1rem;
+  height: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--color-start);
+  position: relative;
+}
+
+.background-pattern {
+  object-fit: cover;
+  opacity: 0.3;
+  position: absolute;
+  height: 100%;
+  right: 0;
+}
+
+.start,
+.sell,
+.rent,
+.buy,
+.rented-products,
+.myproducts {
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.icon_container {
+  height: 40px;
+  width: 40px;
+  border-radius: 7px;
+  background-color: black;
+  opacity: 0.2;
+}
+
+.start-text_container,
+.sell-text_container,
+.rent-text_container,
+.buy-text_container,
+.my-product-text_container,
+.rented-products-text_container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+}
+
+.sell-rent_container,
+.product-options_container {
+  display: flex;
+  gap: 1rem;
+}
+
+.sell_container,
+.rent_container,
+.my-product_container,
+.rented-products_container {
+  width: 50%;
+}
+
+.sell_container {
+  background: #48e1d6cc;
+}
+
+.rent_container {
+  background: #d14768;
+}
+
+.buy_container {
+  background: #29feb1a1;
+}
+
+.my-product_container {
+  background: #d86140;
+}
+.rented-products_container {
+  background: #5897ee;
+}
+
+.hover-effect {
+  transition: all 0.3s ease-in-out;
+  transform-origin: center;
+}
+
+.hover-effect:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .dashboard__header-buttons_container {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .sell-rent_container,
+  .product-options_container {
+    flex-direction: column;
+  }
+
+  .start_container,
+  .sell_container,
+  .rent_container,
+  .buy_container,
+  .my-product_container,
+  .rented-products_container {
+    width: 100%;
+  }
+
+  .icon_container {
+    height: 30px;
+    width: 30px;
+  }
+
+  .start,
+  .sell,
+  .rent,
+  .buy,
+  .myproducts,
+  .rented-products {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .dashboard__header-buttons_container {
+    margin-left: 0px;
+    padding: 0 1rem;
+  }
+
+  .start_container,
+  .sell_container,
+  .rent_container,
+  .buy_container,
+  .my-product_container,
+  .rented-products_container {
+    width: 100%;
+    height: 8rem;
+  }
+
+  .icon_container {
+    height: 25px;
+    width: 25px;
+  }
+
+  .start,
+  .sell,
+  .rent,
+  .buy,
+  .myproducts,
+  .rented-products {
+    font-size: 1.25rem;
+  }
+
+  .sell-rent_container,
+  .product-options_container {
+    gap: 0.1rem;
+  }
+
+  .background-pattern {
+    opacity: 0.2;
+  }
+}

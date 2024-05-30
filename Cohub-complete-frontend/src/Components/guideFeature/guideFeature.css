@@ -1,0 +1,51 @@
+.guideFeature_container {
+  display: flex;
+  flex-direction: column;
+}
+.guideFeature_container-title {
+  /* max-width: 180px; */
+  margin-right: 0;
+}
+.guideFeature_container-title h1 {
+  font-family: var(--font-main);
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 40px;
+  letter-spacing: -0.04em;
+  color: #fff;
+}
+.guideFeature_container-text {
+  /* flex: 2; */
+  max-width: 75%;
+  display: flex;
+  margin-top: 10px;
+}
+.guideFeature_container-text p {
+  font-family: var(--font-main);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--color-text);
+}
+
+@media screen and (max-width: 768px) {
+  .guideFeature_container-text {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .guideFeature_container-title h1 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .guideFeature_container-text p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .guideFeature_container {
+    margin: 1rem 0;
+  }
+}

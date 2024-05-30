@@ -1,0 +1,67 @@
+.cohub__cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+
+  padding: 2rem;
+  margin: 4rem;
+  border-radius: 1rem;
+  background: var(--gradient-bar);
+}
+.cohub__cta-content p {
+  font-family: var(--font-main);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  color: #0e0e0e;
+}
+.cohub__cta-content h3 {
+  font-family: var(--font-main);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 45px;
+  color: black;
+}
+.cohub__cta-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+}
+.cohub__cta-btn button {
+  background: black;
+  color: white;
+  border-radius: 40px;
+  font-family: var(--font-btn);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 40px;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  min-width: 150px;
+}
+@media screen and (max-width: 650px) {
+  .cohub__cta {
+    flex-direction: column;
+  }
+  .cohub__cta-btn {
+    margin: 2rem 0 0;
+  }
+}
+@media screen and (max-width: 550px) {
+  .cohub__cta {
+    flex-direction: column;
+    margin: 4rem 2rem;
+  }
+  .cohub__cta-content h3 {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .cohub__cta-btn button {
+    font-size: 14px;
+    line-height: 28px;
+  }
+}
